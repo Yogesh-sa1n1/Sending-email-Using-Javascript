@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sender</title>
+    <link rel="stylesheet" href="email.css">
+    <script src="email.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>Get In Touch</h3>
+            <input type="text" name="" id="name" placeholder="Your Name" required>
+            <input type="email" name="" id="email" placeholder="Email Id" required>
+            <input type="text" name="" id="phone" placeholder="Phone No." required>
+            <textarea name="" id="message" rows="4" placeholder="Type message here..."></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>
